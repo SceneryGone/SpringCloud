@@ -1,6 +1,7 @@
 package com.matteo.feign.controller;
 
 import com.matteo.feign.callFeign.FeignMessageClient;
+import com.netflix.loadbalancer.DynamicServerListLoadBalancer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
