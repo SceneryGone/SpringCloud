@@ -1,5 +1,6 @@
-package com.matteo.configclient;
+package com.matteo.configclient.controller;
 
+import com.matteo.configclient.service.DemoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

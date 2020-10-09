@@ -1,6 +1,6 @@
 package com.matteo.configclient.producer;
 
-import com.netflix.discovery.converters.Auto;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.stereotype.Component;
