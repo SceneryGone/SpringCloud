@@ -2,6 +2,7 @@ package com.matteo.configclient;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,13 +11,15 @@ import org.springframework.stereotype.Service;
  */
 @Slf4j
 @Service
+@RefreshScope
 public class DemoService {
 
     @Value("${name}")
     private String name;
 
-    public void show() {
+    public String show() {
         log.info("name:{}", name);
+        return name;
     }
 
 }
