@@ -1,14 +1,13 @@
-package com.matteo.zuul;
+package com.matteo.hystrix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZuulApplicationTests {
+class HystrixApplicationTests {
 
     @Test
     void contextLoads() {
-
     }
 
 }

@@ -1,14 +1,13 @@
-package com.matteo.zuul;
+package com.matteo.base;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZuulApplicationTests {
+class BaseApplicationTests {
 
     @Test
     void contextLoads() {
-
     }
 
 }
